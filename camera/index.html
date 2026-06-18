@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../stylesheets/extra.css" rel="stylesheet" />
     
       <script>
         // Current page data
@@ -54,6 +55,16 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Pairing with your camera</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#step-1-connect-to-the-camera">Step 1: Connect to the camera</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-2-enter-camera-details">Step 2: Enter camera details</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#step-3-pair-and-exchange-keys">Step 3: Pair and exchange keys</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#done-camera-paired">Done: camera paired</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#using-your-camera">Using your camera</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -80,7 +91,107 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="pairing-with-your-camera">Pairing with your camera</h1>
+                <h1 id="pairing-with-your-camera">Pairing with Your Camera<a class="headerlink" href="#pairing-with-your-camera" title="Permanent link">&para;</a></h1>
+<p>This is the final step. Your phone forms a direct, encrypted connection to the
+camera, hands it your Wi-Fi details, and exchanges keys.</p>
+<p>The app guides you through pairing in three numbered steps. From the <strong>System</strong>
+tab or Home screen, tap <strong>Add your first camera</strong> to begin.</p>
+<h2 id="step-1-connect-to-the-camera">Step 1: Connect to the camera<a class="headerlink" href="#step-1-connect-to-the-camera" title="Permanent link">&para;</a></h2>
+<p>The app discovers your camera over a temporary, direct link. You'll see two
+quick system prompts. Approve both.</p>
+<div class="shot-row">
+<figure>
+<p><img alt="Permission dialog: allow Secluso to find nearby devices" class="phone" src="../img/camera-permission-nearby.webp" /></p>
+<figcaption>1. Tap <strong>Allow</strong> so the app can find nearby devices.</figcaption>
+</figure>
+<figure>
+<p><img alt="Searching for the camera device" class="phone" src="../img/camera-searching.webp" /></p>
+<figcaption>2. The app searches for your camera.</figcaption>
+</figure>
+<figure>
+<p><img alt="Connect to device: temporary Wi-Fi network named Secluso" class="phone" src="../img/camera-wifi-connect.webp" /></p>
+<figcaption>3. Tap <strong>Connect</strong> to join the camera's temporary <code>Secluso</code> Wi-Fi.</figcaption>
+</figure>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Why a temporary Wi-Fi network?</p>
+<p>The camera briefly broadcasts its own <code>Secluso</code> network so your phone can
+reach it directly, before it's on your home Wi-Fi. This is how the first
+encrypted handshake happens.</p>
+</div>
+<h2 id="step-2-enter-camera-details">Step 2: Enter camera details<a class="headerlink" href="#step-2-enter-camera-details" title="Permanent link">&para;</a></h2>
+<p>Tell the camera who it is and how to reach your home network, then tap
+<strong>Continue</strong>.</p>
+<p><img alt="Camera Setup form: Camera Name, Wi-Fi Network, Wi-Fi Password" class="phone" src="../img/camera-setup-details.webp" /></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>What to enter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Camera Name</strong></td>
+<td>A friendly label, e.g. <em>Front Door</em></td>
+</tr>
+<tr>
+<td><strong>Wi-Fi Network</strong></td>
+<td>Your home network name (SSID)</td>
+</tr>
+<tr>
+<td><strong>Wi-Fi Password</strong></td>
+<td>Your home network password</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Use your everyday Wi-Fi details</p>
+<p>Enter the network the camera should join <strong>permanently</strong>: your normal home
+Wi-Fi, not the temporary <code>Secluso</code> network from Step 1.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Your Wi-Fi password is never stored</p>
+<p>Credentials are sent directly to the camera over the encrypted link. They
+are never saved on your phone or any server.</p>
+</div>
+<h2 id="step-3-pair-and-exchange-keys">Step 3: Pair and exchange keys<a class="headerlink" href="#step-3-pair-and-exchange-keys" title="Permanent link">&para;</a></h2>
+<p>The app sets up encryption with the camera, progressing through three stages.
+Approve notifications so you can receive alerts.</p>
+<div class="shot-row">
+<figure>
+<p><img alt="Pairing progress at 45%: encrypted channel complete, key exchange in progress" class="phone" src="../img/camera-pairing-progress.webp" /></p>
+<figcaption>Encrypted channel, then key exchange, then camera config.</figcaption>
+</figure>
+<figure>
+<p><img alt="Permission dialog: allow Secluso to send notifications" class="phone" src="../img/camera-permission-notifications.webp" /></p>
+<figcaption>Tap <strong>Allow</strong> to get motion and person alerts.</figcaption>
+</figure>
+</div>
+<h2 id="done-camera-paired">Done: camera paired<a class="headerlink" href="#done-camera-paired" title="Permanent link">&para;</a></h2>
+<p>When pairing finishes, your camera is <strong>Connected</strong> with <strong>E2EE Active</strong>. Tap
+<strong>Go to Home</strong>, or <strong>Add Another Camera</strong> to repeat the process.</p>
+<p><img alt="Camera Paired screen: front door, Connected, E2EE Active" class="phone" src="../img/camera-paired.webp" /></p>
+<h2 id="using-your-camera">Using your camera<a class="headerlink" href="#using-your-camera" title="Permanent link">&para;</a></h2>
+<div class="shot-row">
+<figure>
+<p><img alt="Home screen showing relay connected, one camera, front door live tile" class="phone" src="../img/home-with-camera.webp" /></p>
+<figcaption>The <strong>Home</strong> tab lists your cameras and recent activity.</figcaption>
+</figure>
+<figure>
+<p><img alt="Front door camera screen with Tap to view live and saved clips" class="phone" src="../img/camera-live-view.webp" /></p>
+<figcaption>Tap a camera to view live, see activity, and find saved clips.</figcaption>
+</figure>
+</div>
+<p>Open the <strong>Settings</strong> tab to choose your push delivery method and toggle
+<strong>Person</strong>, <strong>Motion</strong>, and <strong>System</strong> alerts independently.</p>
+<p><img alt="Settings screen: Dark Mode, Push Notifications, Person/Motion/System alerts" class="phone" src="../img/settings.webp" /></p>
+<div class="admonition note">
+<p class="admonition-title">Not receiving alerts?</p>
+<p>Make sure <strong>Push Notifications</strong> is on in Settings, that you tapped
+<strong>Allow</strong> on the notification prompt during pairing, and that a push
+delivery method is selected.</p>
+</div>
               
             </div>
           </div><footer>
