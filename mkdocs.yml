@@ -1,0 +1,22 @@
+site_name: Secluso User Docs
+site_description: Set up your private, end-to-end encrypted Secluso home security camera.
+
+theme: readthedocs
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting the app: app.md
+  - Adding a relay: relay.md
+  - Pairing with your camera: camera.md

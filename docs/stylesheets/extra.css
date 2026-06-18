@@ -1,0 +1,50 @@
+/* Just some polishing of the ReadTheDocs theme + allows things like side-by-side screenshots */
+
+.rst-content img.phone,
+.phone {
+  display: block;
+  max-width: 230px !important;
+  width: 100%;
+  height: auto;
+  margin: 1.2rem auto;
+  border-radius: 1.4rem;
+  border: 6px solid #0c0c0c;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+}
+
+.rst-content img.shot,
+.shot {
+  display: block;
+  max-width: 320px !important;
+  width: 100%;
+  height: auto;
+  margin: 1.2rem auto;
+  border-radius: 0.7rem;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+}
+
+.shot-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1.5rem 0;
+}
+
+.shot-row figure {
+  margin: 0;
+  max-width: 240px;
+}
+
+.shot-row .phone,
+.shot-row .shot {
+  margin: 0 auto 0.6rem auto;
+}
+
+.shot-row figcaption {
+  text-align: center;
+  font-size: 0.82rem;
+  color: #666;
+  line-height: 1.35;
+}
