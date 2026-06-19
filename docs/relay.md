@@ -14,8 +14,8 @@ On the **Home** screen, tap **Scan QR code** under *Connect your relay*.
 
 Open the **System** tab and pick how to run the relay:
 
-- **Secluso Relay**: scan the QR code from your Secluso account.
-- **Self-Hosted**: run the relay on your own VPS or dedicated host.
+- **Secluso Relay**: scan the QR code from your Secluso account or the QR code shipped to you with your Secluso camera.
+- **Self-Hosted**: scan the QR code from the relay deployed in your own VPS or dedicated host.
 
 ![System tab showing Secluso Relay and Self-Hosted options](img/relay-choose-server.webp){ .phone }
 

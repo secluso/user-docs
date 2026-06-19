@@ -31,6 +31,7 @@ Install the Secluso app from your phone's app store.
     | --- | --- |
     | Nearby devices / Wi-Fi | To find and connect directly to your camera |
     | Notifications | To alert you about motion, people, and system events |
+    | Camera | To take a photo of relay and camera QR codes |
 
 !!! tip "App installed"
     Once the app opens to the **"Let's get you set up"** screen, you're ready

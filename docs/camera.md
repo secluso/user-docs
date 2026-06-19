@@ -3,10 +3,27 @@
 This is the final step. Your phone forms a direct, encrypted connection to the
 camera, hands it your Wi-Fi details, and exchanges keys.
 
-The app guides you through pairing in three numbered steps. From the **System**
-tab or Home screen, tap **Add your first camera** to begin.
+The app guides you through pairing in four numbered steps.
+ 
+## Step 1: Scan the camera QR code
 
-## Step 1: Connect to the camera
+Press **Add your first camera** in the **System** tab or **ADD CAMERA** in the **Home** tab. The app will then ask you to scan the camera QR code.
+
+<div class="shot-row" markdown>
+
+<figure markdown>
+![System tab having an option for adding a camera](img/relay-connected.webp){ .phone }
+<figcaption>1. Tap <strong>Add your first camera</strong> in the <strong>System</strong> tab to start adding your Secluso camera.</figcaption>
+</figure>
+
+<figure markdown>
+![Home tab showing and option for adding a camera](img/add-camera-home.webp){ .phone }
+<figcaption>2. Tap <strong>ADD CAMERA</strong> in the <strong>Home</strong> tab to start adding your Secluso camera.</figcaption>
+</figure>
+
+</div>
+
+## Step 2: Connect to the camera
 
 The app discovers your camera over a temporary, direct link. You'll see two
 quick system prompts. Approve both.
@@ -32,12 +49,12 @@ quick system prompts. Approve both.
 
 !!! note "Why a temporary Wi-Fi network?"
     The camera briefly broadcasts its own `Secluso` network so your phone can
-    reach it directly, before it's on your home Wi-Fi. This is how the first
-    encrypted handshake happens.
+    reach it directly, before it's on your home Wi-Fi. This is how the secure pairing
+    handshake happens.
 
-## Step 2: Enter camera details
+## Step 3: Enter camera and WiFi details
 
-Tell the camera who it is and how to reach your home network, then tap
+Enter a name for the camera as well as the information for your home WiFi network that the camera needs to connect to, then tap
 **Continue**.
 
 ![Camera Setup form: Camera Name, Wi-Fi Network, Wi-Fi Password](img/camera-setup-details.webp){ .phone }
@@ -56,7 +73,7 @@ Tell the camera who it is and how to reach your home network, then tap
     Credentials are sent directly to the camera over the encrypted link. They
     are never saved on your phone or any server.
 
-## Step 3: Pair and exchange keys
+## Step 4: Pair and exchange keys
 
 The app sets up encryption with the camera, progressing through three stages.
 Approve notifications so you can receive alerts.

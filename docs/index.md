@@ -1,6 +1,6 @@
 # Secluso User Docs
 
-This guide walks you through setting up Secluso in three steps:
+This guide walks you through setting up a Secluso camera in three steps:
 
 1. [Getting the app](app.md)
 2. [Adding a relay](relay.md)
@@ -9,9 +9,11 @@ This guide walks you through setting up Secluso in three steps:
 !!! note "Before you begin"
     Have these ready:
 
-    - An Android or iOS phone
+    - Your Android or iOS phone
     - Your Secluso camera, powered on
+    - The QR code for the Secluso camera
     - Your home Wi-Fi network name and password
-    - A Secluso relay (hosted account or your own server)
+    - A Secluso relay (Secluso's beta relay or your own self-hosted relay)
+    - The QR code for the relay
 
 [Get started](app.md)
